@@ -10,7 +10,7 @@ This document outlines the plan and progress for a new React application. The go
 
 *   [x] Initial Vite + React project setup.
 *   [x] Fix initial rendering issue and establish a baseline dark theme.
-*   [ ] Create a more visually appealing landing page.
+*   [x] Create a dynamic and visually rich landing page with a full-screen text animation.
 *   [ ] Introduce a component library for consistent styling.
 
 ### Phase 2: Core Features
