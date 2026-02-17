@@ -82,7 +82,14 @@ const App = () => {
       <div className="absolute inset-0 opacity-[0.3] pointer-events-none z-50 mix-blend-overlay bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
       
       <div className="relative z-20 flex items-center justify-center scale-[5] sm:scale-[8] opacity-80 pointer-events-none">
-        <svg width="200" height="200" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg 
+            width="200" 
+            height="200" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+            className="animate-shimmer"
+        >
           <defs>
             <linearGradient id="glitterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stopColor="#ffffff" />
@@ -101,7 +108,6 @@ const App = () => {
             stroke="url(#glitterGrad)" 
             strokeWidth="0.8" 
             filter="url(#glow)"
-            className="animate-shimmer"
           />
         </svg>
       </div>
